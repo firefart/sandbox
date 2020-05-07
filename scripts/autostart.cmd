@@ -17,3 +17,5 @@ msiexec /i "%TEMP%\corretto.msi" /qn /norestart
 msiexec /i "%TEMP%\python2.msi" /qn /norestart
 "%TEMP%\python3.exe" /quiet InstallAllUsers=1 PrependPath=1
 copy /B /Y /V "%TEMP%\autoitextractor.exe" "%USERPROFILE%\Desktop\autoitextractor.exe"
+"%PROGRAMFILES%\7-Zip\7z.exe" x "%TEMP%\hxd.zip" -o"%TEMP%"
+"%TEMP%\HxDSetup.exe" /VERYSILENT /NORESTART 

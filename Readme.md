@@ -23,6 +23,7 @@ the following software is currently installed
 - dnSpy
 - Detect it easy
 - AutoIT extractor (currently needs .NET 3.5)
+- HxD
 
 ## Usage
 
