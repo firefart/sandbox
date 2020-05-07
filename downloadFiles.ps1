@@ -29,6 +29,11 @@ Try {
   Download-File -url "https://sourceforge.net/projects/x64dbg/files/latest/download" -path "$($PSScriptRoot)\scripts\setups\x64dbg.zip"
   Download-File -url "https://download.sysinternals.com/files/SysinternalsSuite.zip" -path "$($PSScriptRoot)\scripts\setups\sysinternals.zip"
   Download-File -url "https://github.com/0xd4d/dnSpy/releases/download/v6.1.4/dnSpy-net472.zip" -path "$($PSScriptRoot)\scripts\setups\dnSpy.zip"
+  Download-File -url "https://www.python.org/ftp/python/3.8.2/python-3.8.2-amd64.exe" -path "$($PSScriptRoot)\scripts\setups\python3.exe"
+  Download-File -url "https://www.python.org/ftp/python/2.7.18/python-2.7.18.amd64.msi" -path "$($PSScriptRoot)\scripts\setups\python2.msi"
+  Download-File -url "https://github.com/horsicq/DIE-engine/releases/download/1.01/DIE_1.01_win.zip" -path "$($PSScriptRoot)\scripts\setups\detectiteasy.zip"
+  Download-File -url "https://gitlab.com/x0r19x91/autoit-extractor/-/raw/master/AutoIt%20Extractor/bin/x64/Release/AutoIt%20Extractor.exe?inline=false" -path "$($PSScriptRoot)\scripts\setups\autoitextractor.exe"
+  Download-File -url "https://github.com/upx/upx/releases/download/v3.96/upx-3.96-win64.zip" -path "$($PSScriptRoot)\scripts\setups\upx.zip"
 }
 Catch {
   $error[0] | Format-List * -force

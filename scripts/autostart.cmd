@@ -12,3 +12,8 @@ msiexec /i "%TEMP%\corretto.msi" /qn /norestart
 "%PROGRAMFILES%\7-Zip\7z.exe" x "%TEMP%\sysinternals.zip" -o"%USERPROFILE%\Desktop\sysinternals"
 "%PROGRAMFILES%\7-Zip\7z.exe" x "%TEMP%\x64dbg.zip" -o"%USERPROFILE%\Desktop\x64dbg"
 "%PROGRAMFILES%\7-Zip\7z.exe" x "%TEMP%\dnSpy.zip" -o"%USERPROFILE%\Desktop\dnSpy"
+"%PROGRAMFILES%\7-Zip\7z.exe" x "%TEMP%\detectiteasy.zip" -o"%USERPROFILE%\Desktop\detectiteasy"
+"%PROGRAMFILES%\7-Zip\7z.exe" x "%TEMP%\upx.zip" -o"%USERPROFILE%\Desktop\upx"
+msiexec /i "%TEMP%\python2.msi" /qn /norestart
+"%TEMP%\python3.exe" /quiet InstallAllUsers=1 PrependPath=1
+copy /B /Y /V "%TEMP%\autoitextractor.exe" "%USERPROFILE%\Desktop\autoitextractor.exe"

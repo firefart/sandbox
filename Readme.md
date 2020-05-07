@@ -15,9 +15,14 @@ the following software is currently installed
 - 7-zip
 - dosbox
 - Sysinternals Suite
+- UPX
+- python2
+- python3
 - Ghidra
 - x64dbg
 - dnSpy
+- Detect it easy
+- AutoIT extractor (currently needs .NET 3.5)
 
 ## Usage
 
