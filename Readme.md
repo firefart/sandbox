@@ -22,7 +22,7 @@ the following software is currently installed
 - x64dbg
 - dnSpy
 - Detect it easy
-- AutoIT extractor (currently needs .NET 3.5)
+- AutoIT extractor
 - HxD
 
 ## Usage
