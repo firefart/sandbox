@@ -19,3 +19,8 @@ msiexec /i "%TEMP%\python2.msi" /qn /norestart
 copy /B /Y /V "%TEMP%\autoitextractor.exe" "%USERPROFILE%\Desktop\autoitextractor.exe"
 "%PROGRAMFILES%\7-Zip\7z.exe" x "%TEMP%\hxd.zip" -o"%TEMP%"
 "%TEMP%\HxDSetup.exe" /VERYSILENT /NORESTART 
+rem https://www.wireshark.org/docs/wsug_html_chunked/ChBuildInstallWinInstall.html
+rem silent install will not install npcap
+"%TEMP%\wireshark.exe" /S /desktopicon=yes
+rem npcap does not support silent install ....
+"%TEMP%\npcap.exe" /loopback_support=yes

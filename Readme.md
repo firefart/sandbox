@@ -24,6 +24,8 @@ the following software is currently installed
 - Detect it easy
 - AutoIT extractor
 - HxD
+- Wireshark
+- Npcap (does not support silent install, you have to click next next next)
 
 ## Usage
 
