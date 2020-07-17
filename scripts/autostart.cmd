@@ -17,6 +17,7 @@ msiexec /i "%TEMP%\corretto.msi" /qn /norestart
 "%PROGRAMFILES%\7-Zip\7z.exe" x "%TEMP%\upx.zip" -o"%USERPROFILE%\Desktop\upx"
 "%TEMP%\vcredist_x64.exe" /passive /norestart
 "%PROGRAMFILES%\7-Zip\7z.exe" x "%TEMP%\pebear.zip" -o"%USERPROFILE%\Desktop\pebear"
+"%PROGRAMFILES%\7-Zip\7z.exe" x "%TEMP%\pestudio.zip" -o"%USERPROFILE%\Desktop\pestudio"
 msiexec /i "%TEMP%\python2.msi" /qn /norestart
 "%TEMP%\python3.exe" /quiet InstallAllUsers=1 PrependPath=1
 copy /B /Y /V "%TEMP%\autoitextractor.exe" "%USERPROFILE%\Desktop\autoitextractor.exe"
