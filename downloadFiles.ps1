@@ -3,7 +3,10 @@ Function Download-File {
     [string]$url,
     [string]$path
   )
-
+  if (Test-Path $path) {
+    Write-Output "File $path already exists"
+    return
+  }
   $start_time = Get-Date
   Write-Output "Downloading $($url)"
   $wc = New-Object System.Net.WebClient
