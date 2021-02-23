@@ -36,7 +36,7 @@ Try {
   Download-File -url "https://github.com/upx/upx/releases/download/v3.96/upx-3.96-win64.zip" -path "$($PSScriptRoot)\scripts\setups\upx.zip"
   Download-File -url "https://mh-nexus.de/downloads/HxDSetup.zip" -path "$($PSScriptRoot)\scripts\setups\hxd.zip"
   Download-File -url "https://nmap.org/npcap/dist/npcap-1.10.exe" -path "$($PSScriptRoot)\scripts\setups\npcap.exe"
-  Download-File -url "https://1.eu.dl.wireshark.org/win64/Wireshark-win64-3.4.1.exe" -path "$($PSScriptRoot)\scripts\setups\wireshark.exe"
+  Download-File -url "https://1.eu.dl.wireshark.org/win64/Wireshark-win64-3.4.3.exe" -path "$($PSScriptRoot)\scripts\setups\wireshark.exe"
   # dep for pebear
   Download-File -url "http://download.microsoft.com/download/3/2/2/3224B87F-CFA0-4E70-BDA3-3DE650EFEBA5/vcredist_x64.exe" -path "$($PSScriptRoot)\scripts\setups\vcredist_x64.exe"
   Download-File -url "https://github.com/hasherezade/pe-bear-releases/releases/download/0.5.2.3/PE-bear_0.5.2.3_x64_win_vs17.zip" -path "$($PSScriptRoot)\scripts\setups\pebear.zip"
