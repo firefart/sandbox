@@ -26,6 +26,14 @@ the following software is currently installed
 - HxD
 - Wireshark
 - Npcap (does not support silent install, you have to click next next next)
+- Microsoft Edge Chromium
+- PEStudio
+- PE-Bear
+
+## Additional config
+
+- powershell script block logging activated
+- sysmon with SwiftOnSecurity profile installed (view results in eventvwr)
 
 ## Usage
 

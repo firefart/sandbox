@@ -2,3 +2,5 @@
 *.zip
 *.msi
 *.wsb
+scripts/setups
+!scripts/setups/.keep
