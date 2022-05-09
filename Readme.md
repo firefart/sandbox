@@ -11,7 +11,7 @@ the following software is currently installed
 - Visual Studio Code
 - Notepad++
 - Sublime Text
-- Amazon Corretto 11
+- Amazon Corretto
 - 7-zip
 - dosbox
 - Sysinternals Suite
