@@ -9,7 +9,6 @@ msiexec /i "%TEMP%\corretto.msi" /qn /norestart
 "%TEMP%\notepad++.exe" /S
 "%TEMP%\sublime.exe" /VERYSILENT /NORESTART /TASKS="contextentry"
 "%TEMP%\vcredist_x64.exe"
-msiexec /i "%TEMP%\MicrosoftEdgeEnterpriseX64.msi" /qn /norestart
 "%PROGRAMFILES%\7-Zip\7z.exe" x -aoa "%TEMP%\ghidra.zip" -o"%USERPROFILE%\Desktop\ghidra" 
 "%PROGRAMFILES%\7-Zip\7z.exe" x -aoa "%TEMP%\sysinternals.zip" -o"%USERPROFILE%\Desktop\sysinternals"
 rem install sysmon
@@ -23,7 +22,6 @@ rem install sysmon
 "%PROGRAMFILES%\7-Zip\7z.exe" x -aoa "%TEMP%\pestudio.zip" -o"%USERPROFILE%\Desktop\pestudio"
 msiexec /i "%TEMP%\python2.msi" /qn /norestart
 "%TEMP%\python3.exe" /quiet InstallAllUsers=1 PrependPath=1 Include_test=0
-copy /B /Y /V "%TEMP%\autoitextractor.exe" "%USERPROFILE%\Desktop\autoitextractor.exe"
 "%PROGRAMFILES%\7-Zip\7z.exe" x -aoa "%TEMP%\hxd.zip" -o"%TEMP%"
 "%TEMP%\HxDSetup.exe" /VERYSILENT /NORESTART 
 rem https://www.wireshark.org/docs/wsug_html_chunked/ChBuildInstallWinInstall.html
